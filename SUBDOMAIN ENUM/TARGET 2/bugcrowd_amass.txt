@@ -1,0 +1,4 @@
+[92mbugcrowd.com[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mns-1430.awsdns-50.org[0m[94m (FQDN)[0m
+[92mbugcrowd.com[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mns-2026.awsdns-61.co.uk[0m[94m (FQDN)[0m
+[92mbugcrowd.com[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mns-204.awsdns-25.com[0m[94m (FQDN)[0m
+[92mbugcrowd.com[0m[94m (FQDN)[0m [97m-->[0m [95mns_record[0m [97m-->[0m [92mns-945.awsdns-54.net[0m[94m (FQDN)[0m
