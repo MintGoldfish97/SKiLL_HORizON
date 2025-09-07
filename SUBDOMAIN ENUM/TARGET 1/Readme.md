@@ -41,10 +41,8 @@ yahoo_subs.txt
 Finds additional subdomains.
 
 *Command Used:*
-bash
 assetfinder --subs-only yahoo.com > yahoo_asset.txt
 
 
 *Output File:*  
 yahoo_asset.txt
-[2] Screenshot_20250907-185045_GitHub.jpeg https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/82879627/6a00398d-32c4-47e0-aed4-3eb3b8dc1147/Screenshot_20250907-185045_GitHub.jpeg
