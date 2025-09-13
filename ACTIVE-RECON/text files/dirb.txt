@@ -1,0 +1,139 @@
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Sat Sep 13 11:25:44 2025
+URL_BASE: http://192.168.56.101/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612                                                          
+
+---- Scanning URL: http://192.168.56.101/ ----
++ http://192.168.56.101/cgi-bin/ (CODE:403|SIZE:295)                                                                                                                                                                                       
+==> DIRECTORY: http://192.168.56.101/dav/                                                                                                                                                                                                  
++ http://192.168.56.101/index (CODE:200|SIZE:891)                                                                                                                                                                                          
++ http://192.168.56.101/index.php (CODE:200|SIZE:891)                                                                                                                                                                                      
++ http://192.168.56.101/phpinfo (CODE:200|SIZE:48092)                                                                                                                                                                                      
++ http://192.168.56.101/phpinfo.php (CODE:200|SIZE:48104)                                                                                                                                                                                  
+==> DIRECTORY: http://192.168.56.101/phpMyAdmin/                                                                                                                                                                                           
++ http://192.168.56.101/server-status (CODE:403|SIZE:300)                                                                                                                                                                                  
+==> DIRECTORY: http://192.168.56.101/test/                                                                                                                                                                                                 
+==> DIRECTORY: http://192.168.56.101/twiki/                                                                                                                                                                                                
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/dav/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/phpMyAdmin/ ----
++ http://192.168.56.101/phpMyAdmin/calendar (CODE:200|SIZE:4145)                                                                                                                                                                           
++ http://192.168.56.101/phpMyAdmin/changelog (CODE:200|SIZE:74593)                                                                                                                                                                         
++ http://192.168.56.101/phpMyAdmin/ChangeLog (CODE:200|SIZE:40540)                                                                                                                                                                         
+==> DIRECTORY: http://192.168.56.101/phpMyAdmin/contrib/                                                                                                                                                                                   
++ http://192.168.56.101/phpMyAdmin/docs (CODE:200|SIZE:4583)                                                                                                                                                                               
++ http://192.168.56.101/phpMyAdmin/error (CODE:200|SIZE:1063)                                                                                                                                                                              
++ http://192.168.56.101/phpMyAdmin/export (CODE:200|SIZE:4145)                                                                                                                                                                             
++ http://192.168.56.101/phpMyAdmin/favicon.ico (CODE:200|SIZE:18902)                                                                                                                                                                       
++ http://192.168.56.101/phpMyAdmin/import (CODE:200|SIZE:4145)                                                                                                                                                                             
++ http://192.168.56.101/phpMyAdmin/index (CODE:200|SIZE:4145)                                                                                                                                                                              
++ http://192.168.56.101/phpMyAdmin/index.php (CODE:200|SIZE:4145)                                                                                                                                                                          
+==> DIRECTORY: http://192.168.56.101/phpMyAdmin/js/                                                                                                                                                                                        
+==> DIRECTORY: http://192.168.56.101/phpMyAdmin/lang/                                                                                                                                                                                      
+==> DIRECTORY: http://192.168.56.101/phpMyAdmin/libraries/                                                                                                                                                                                 
++ http://192.168.56.101/phpMyAdmin/license (CODE:200|SIZE:18011)                                                                                                                                                                           
++ http://192.168.56.101/phpMyAdmin/LICENSE (CODE:200|SIZE:18011)                                                                                                                                                                           
++ http://192.168.56.101/phpMyAdmin/main (CODE:200|SIZE:4227)                                                                                                                                                                               
++ http://192.168.56.101/phpMyAdmin/navigation (CODE:200|SIZE:4145)                                                                                                                                                                         
++ http://192.168.56.101/phpMyAdmin/phpinfo (CODE:200|SIZE:0)                                                                                                                                                                               
++ http://192.168.56.101/phpMyAdmin/phpinfo.php (CODE:200|SIZE:0)                                                                                                                                                                           
++ http://192.168.56.101/phpMyAdmin/phpmyadmin (CODE:200|SIZE:21389)                                                                                                                                                                        
++ http://192.168.56.101/phpMyAdmin/print (CODE:200|SIZE:1063)                                                                                                                                                                              
++ http://192.168.56.101/phpMyAdmin/readme (CODE:200|SIZE:2624)                                                                                                                                                                             
++ http://192.168.56.101/phpMyAdmin/README (CODE:200|SIZE:2624)                                                                                                                                                                             
++ http://192.168.56.101/phpMyAdmin/robots (CODE:200|SIZE:26)                                                                                                                                                                               
++ http://192.168.56.101/phpMyAdmin/robots.txt (CODE:200|SIZE:26)                                                                                                                                                                           
+==> DIRECTORY: http://192.168.56.101/phpMyAdmin/scripts/                                                                                                                                                                                   
+==> DIRECTORY: http://192.168.56.101/phpMyAdmin/setup/                                                                                                                                                                                     
++ http://192.168.56.101/phpMyAdmin/sql (CODE:200|SIZE:4145)                                                                                                                                                                                
+==> DIRECTORY: http://192.168.56.101/phpMyAdmin/test/                                                                                                                                                                                      
+==> DIRECTORY: http://192.168.56.101/phpMyAdmin/themes/                                                                                                                                                                                    
++ http://192.168.56.101/phpMyAdmin/TODO (CODE:200|SIZE:235)                                                                                                                                                                                
++ http://192.168.56.101/phpMyAdmin/webapp (CODE:200|SIZE:6902)                                                                                                                                                                             
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/test/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/twiki/ ----
+==> DIRECTORY: http://192.168.56.101/twiki/bin/                                                                                                                                                                                            
++ http://192.168.56.101/twiki/data (CODE:403|SIZE:297)                                                                                                                                                                                     
++ http://192.168.56.101/twiki/index (CODE:200|SIZE:782)                                                                                                                                                                                    
++ http://192.168.56.101/twiki/index.html (CODE:200|SIZE:782)                                                                                                                                                                               
+==> DIRECTORY: http://192.168.56.101/twiki/lib/                                                                                                                                                                                            
++ http://192.168.56.101/twiki/license (CODE:200|SIZE:19440)                                                                                                                                                                                
+==> DIRECTORY: http://192.168.56.101/twiki/pub/                                                                                                                                                                                            
++ http://192.168.56.101/twiki/readme (CODE:200|SIZE:4334)                                                                                                                                                                                  
++ http://192.168.56.101/twiki/templates (CODE:403|SIZE:302)                                                                                                                                                                                
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/phpMyAdmin/contrib/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/phpMyAdmin/js/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/phpMyAdmin/lang/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/phpMyAdmin/libraries/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/phpMyAdmin/scripts/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/phpMyAdmin/setup/ ----
++ http://192.168.56.101/phpMyAdmin/setup/config (CODE:303|SIZE:1370)                                                                                                                                                                       
+==> DIRECTORY: http://192.168.56.101/phpMyAdmin/setup/frames/                                                                                                                                                                              
++ http://192.168.56.101/phpMyAdmin/setup/index (CODE:200|SIZE:8618)                                                                                                                                                                        
++ http://192.168.56.101/phpMyAdmin/setup/index.php (CODE:200|SIZE:8626)                                                                                                                                                                    
+==> DIRECTORY: http://192.168.56.101/phpMyAdmin/setup/lib/                                                                                                                                                                                 
++ http://192.168.56.101/phpMyAdmin/setup/scripts (CODE:200|SIZE:21967)                                                                                                                                                                     
++ http://192.168.56.101/phpMyAdmin/setup/styles (CODE:200|SIZE:6218)                                                                                                                                                                       
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/phpMyAdmin/test/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/phpMyAdmin/themes/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/twiki/bin/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/twiki/lib/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/twiki/pub/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/phpMyAdmin/setup/frames/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                                                                                                                                                                                           
+---- Entering directory: http://192.168.56.101/phpMyAdmin/setup/lib/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                               
+-----------------
+END_TIME: Sat Sep 13 11:27:07 2025
+DOWNLOADED: 18448 - FOUND: 42
