@@ -1,0 +1,42 @@
+[phpmyadmin-panel] [http] [info] http://192.168.1.95/phpMyAdmin/index.php [paths="/phpMyAdmin/index.php"]
+[apache-detect] [http] [info] http://192.168.1.95 ["Apache/2.2.8 (Ubuntu) DAV/2"]
+[php-detect] [http] [info] http://192.168.1.95 ["5.2.4"]
+[tech-detect:php] [http] [info] http://192.168.1.95
+[waf-detect:apachegeneric] [http] [info] http://192.168.1.95
+[samba-detect] [javascript] [info] 192.168.1.95:445 ["Samba 3.0.20-Debian"]
+[esmtp-detect] [tcp] [info] 192.168.1.95:25
+[nfs-v3-exposed] [tcp] [info] 192.168.1.95:2049
+[pgsql-detect] [tcp] [info] 192.168.1.95:5432
+[ssh-auth-methods] [javascript] [info] 192.168.1.95:22 ["["publickey","password"]"]
+[smtp-detect] [tcp] [info] 192.168.1.95:25
+[vnc-service-detect] [tcp] [info] 192.168.1.95:5900 ["RFB 003.003"]
+[openssh-detect] [tcp] [info] 192.168.1.95:22 ["SSH-2.0-OpenSSH_4.7p1 Debian-8ubuntu1"]
+[ajp-protocol-detect] [javascript] [info] 192.168.1.95:8009 ["AJP Detected"]
+[CVE-2012-1823] [http] [high] http://192.168.1.95/index.php?-d+allow_url_include%3don+-d+auto_prepend_file%3dphp%3a//input
+[phpmyadmin-panel] [http] [info] http://192.168.1.95/phpMyAdmin/index.php [paths="/phpMyAdmin/index.php"]
+[external-service-interaction] [http] [info] http://192.168.1.95
+[apache-detect] [http] [info] http://192.168.1.95 ["Apache/2.2.8 (Ubuntu) DAV/2"]
+[php-detect] [http] [info] http://192.168.1.95 ["5.2.4"]
+[samba-detect] [javascript] [info] 192.168.1.95:445 ["Samba 3.0.20-Debian"]
+[ssh-auth-methods] [javascript] [info] 192.168.1.95:22 ["["publickey","password"]"]
+[pgsql-default-db] [javascript] [high] 192.168.1.95:5432 [database="postgres",password="postgres",usernames="postgres"]
+[postgres-default-logins] [javascript] [high] 192.168.1.95:5432 [passwords="postgres",usernames="postgres"]
+[ssh-diffie-hellman-logjam] [javascript] [low] 192.168.1.95:22
+[ssh-password-auth] [javascript] [info] 192.168.1.95:22
+[ssh-server-enumeration] [javascript] [info] 192.168.1.95:22 ["SSH-2.0-OpenSSH_4.7p1 Debian-8ubuntu1"]
+[ssh-sha1-hmac-algo] [javascript] [info] 192.168.1.95:22
+[ssh-cbc-mode-ciphers] [javascript] [low] 192.168.1.95:22
+[ssh-weak-algo-supported] [javascript] [medium] 192.168.1.95:22
+[ssh-weak-mac-algo] [javascript] [low] 192.168.1.95:22
+[ssh-weakkey-exchange-algo] [javascript] [low] 192.168.1.95:22
+[pgsql-file-read] [javascript] [high] 192.168.1.95:5432 ["pg_subtrans","root.crt","base","pg_tblspc","PG_VERSION","pg_twophase","postmaster.opts","server.crt","server.key","pg_xlog","postmaster.pid","pg_multixact","global","pg_clog"] [database="postgres",password="postgres",usernames="postgres"]
+[pgsql-list-database] [javascript] [high] 192.168.1.95:5432 ["template1","template0","postgres"] [database="postgres",password="postgres",usernames="postgres"]
+[esmtp-detect] [tcp] [info] 192.168.1.95:25
+[pgsql-list-password-hashes] [javascript] [high] 192.168.1.95:5432 ["postgres : md53175bce1d3201d16594cebf9d7eb3f9d"] [database="postgres",password="postgres",usernames="postgres"]
+[nfs-v3-exposed] [tcp] [info] 192.168.1.95:2049
+[openssh-detect] [tcp] [info] 192.168.1.95:22 ["SSH-2.0-OpenSSH_4.7p1 Debian-8ubuntu1"]
+[smtp-detect] [tcp] [info] 192.168.1.95:25
+[vnc-service-detect] [tcp] [info] 192.168.1.95:5900 ["RFB 003.003"]
+[pgsql-list-users] [javascript] [high] 192.168.1.95:5432 ["postgres"] [database="postgres",password="postgres",usernames="postgres"]
+[smtp-commands-enum:ehlo] [tcp] [info] 192.168.1.95:25 ["VRFY","ETRN","STARTTLS","ENHANCEDSTATUSCODES","8BITMIME","DSN","PIPELINING","SIZE 10240000"]
+[pgsql-version-detect] [javascript] [high] 192.168.1.95:5432 ["PostgreSQL 8.3.1 on i486-pc-linux-gnu, compiled by GCC cc (GCC) 4.2.3 (Ubuntu 4.2.3-2ubuntu4)"] [database="postgres",password="postgres",usernames="postgres"]
